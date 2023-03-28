@@ -1,0 +1,87 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "closed": {
+          "type": "boolean"
+        },
+        "idBoard": {
+          "type": "string"
+        },
+        "pos": {
+          "type": "number"
+        },
+        "subscribed": {
+          "type": "boolean"
+        },
+        "softLimit": {
+          "type": "null"
+        },
+        "status": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "closed",
+        "idBoard",
+        "pos",
+        "subscribed",
+        "softLimit",
+        "status"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "closed": {
+          "type": "boolean"
+        },
+        "idBoard": {
+          "type": "string"
+        },
+        "pos": {
+          "type": "integer"
+        },
+        "subscribed": {
+          "type": "boolean"
+        },
+        "softLimit": {
+          "type": "null"
+        },
+        "status": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "closed",
+        "idBoard",
+        "pos",
+        "subscribed",
+        "softLimit",
+        "status"
+      ]
+    }
+  ]
+}
+
